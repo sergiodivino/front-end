@@ -1,0 +1,15 @@
+---------ECMAScript Error--------------------
+É conhecido como error que ocorre em tempo de execução
+
+-COMPOSTO POR-
+-Mesagem
+-Nome
+-Linha
+-Call Stack
+exemplo: falta de ponto e vírgula
+
+--------------------DOMException-----------------------------
+Error relacionado ao Document Object Model(DOM)ou seja relacionado ao 
+página web
+- é error de referente a estrutura da árvore de elementos dentro de uma 
+página web

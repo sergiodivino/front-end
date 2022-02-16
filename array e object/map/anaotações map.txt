@@ -1,0 +1,20 @@
+
+-A função de map em javascritp é criar um novo array
+-Não modifica o array original
+- Realiza as operações em ordem(primeiro index ao último)
+----------------------SINTAXE-----------------------------
+array.map(callback, thisArg)
+dentro de callback(item, index, array)
+-CALLBACK- função a ser executada em cada elemento
+obs: callback pode passar apena um parâmetro
+-thisArgs(opcional)pouo usado no dia a dia
+
+-------------EXEMPLO USANDO MAP---------------------------
+const array = [1,2,3,4,5];
+array.map((item) => item*2);
+//retorno: [2,4,6,8,10] retorna um novo array
+
+--------------EXEMPLO USANDO forEach------------------------
+const array = [1,2,3,4];
+array.forEach((item)=> item * 2);
+//retorno: undefined

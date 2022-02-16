@@ -1,0 +1,25 @@
+Javascript utiliza o CamelCase
+
+---------tipos de variaveis
+
+VAR- varial global ou local
+LET- variavel de local(escopo,bloco) pode reatribuir
+CONST- Declarada em maiúsculo e plavra separada por underline, escopo de bloco, n faz hoisting
+n pode reatribuir e redeclarar. 
+----------------------------------------
+HOISTNG- atribuir um valor a variavel antes de declarar
+pode ser utilizado com VAR E FUNÇÃO
+
+REDECLARAÇÃO- Pode redeclarar com variavel do tipo VAR
+
+Typeof- identifica o tipo de variável
+
+-----------------------------ESTRUTURA DE DADOS EM JAVASCRIPT
+
+DADOS PRIMITVOS- number, string, boolen, null e undefined
+obs: não tem métodos guardados neles e escrito em letras minúscula
+
+DADOS NÃO PRIMITIVOS- objets e arrays, 
+
+STRING- comumente utlizada para texto, valores declarado em aspas ou crase
+interpolação é qnd usa texto e variável dentro de crase, é um dado interável

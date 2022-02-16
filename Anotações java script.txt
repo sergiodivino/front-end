@@ -1,0 +1,5 @@
+Boa pratica é externar o arquivo java script
+Colocar o java script ao final do body
+
+JavaScript tem tiptagem fraca
+declaração de dados de forma dinâmica

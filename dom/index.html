@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+
+<body>
+    <!-- DOM-Document Object Model
+    é um padrão de como acessar e modeficar os elementos HTML de uma página
+    documente é o element pai e outras tag são elementos filhos, formando uma arvore
+    ---------BOM-----------------------------------------------------------
+    Browser Object Model- winddow é propriedade pai e seus filhos 
+    document- dentro de document estar  DOM
+    history
+    location
+    screen
+    navigator
+   -------------------------------------------------------------------------------------
+                                    MÉTODO
+    -document.getElementById('id');-retorna um único elemento q corresponde ao ID
+    -document.getElementByTagName('nome da tag');- retorna um array se quiser pegar um indice
+    do arary usa cochete
+    -document.getElementByClassName('nome da classe');-retorna um array idepedente se tiver
+    um elemento. 
+    -document.querySelectorAll('.classe1 .classe2');-retorna um array
+    -document.querySelectorAll('tag.classe');
+    -----------------metedo adicionar e deletar
+    document.createElement(element)cria um novo elemento html
+    document.removeChild(element)remove m elemento
+    document.appendChld(element)adiciona um elemento
+    document.replaceChild(newElement, velhoElement)substitui um elemento
+    -->
+
+    <!--adicionando evento de botao no html-->
+    <h1 onclick="mudaTexto(this)">Clique aqui</h1>
+        <script>
+            function mudaTexto(id){
+                id.innerHTML = "MUDEI"
+            }       
+        </script>
+
+
+    <div id="meu-elemento" class="classe"></div>
+    <p id="p1">Sérgio dos Santos</p>
+  <script src="estilo.js"></script>
+</body>
+</html>

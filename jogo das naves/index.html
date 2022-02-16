@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgate</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!--div container-->
+    <div id="container">
+                <!--div fundoGame-->
+        <div id="fundoGame" >
+            <div id="inicio" onclick="start()"><h1>Resgate</h1><!--oncliick chama a funcao start-->
+                <!--div inicio-->
+                <p>Utilize a &#8593; para movimentar o helicóptero para cima, a  
+                    &#8595; para movimentar o helicóptero para baixo e a tecla D para atirar.</p>
+                <p>Clique aqui para iniciar</p>
+            </div>
+            <!--fim da div inicio-->
+        </div>
+        <!--fim div fundoGame-->
+    </div>
+    <!--fim div container-->
+    
+    <!--sons do jogo-->
+    <!--preload carrega antes pra memoria e ta como automatico-->
+    <audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>    
+    <audio src="sons/gameover.mp3" preload="auto" id="somGameOver"></audio>
+    <audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>
+    <audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/js.js" ></script>
+<script type="text/javascript" src="js/jquery-collision.min.js"></script>
+>>>>>>> 2fe37ab (jogo da nave)
+</body>
+</html>
